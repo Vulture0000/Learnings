@@ -8,7 +8,7 @@ class Animal:
         return "there will be different sound for each animal"
 class Dog(Animal):
     def walk(self):
-        return "Dog walks"
+        return "Dog walks" 
     def sound(self):
         return "bark"
 
