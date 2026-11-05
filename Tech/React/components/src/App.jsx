@@ -1,14 +1,39 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import Addnew from './Add.jsx'
+import './Add.jsx'
 import './App.css'
 
 function App() {
   return (
+    <>
     <header>
-      this is a header in my first react project
+      Todo
     </header>
+    
+    <div className='todo table'>
+      <table>
+        <thead>
+          <tr>
+            <th>Work or what to do</th>
+            <th>done  or not</th>
+
+          </tr>
+        </thead>
+
+        <tr>
+          <td>work 1</td>
+          <td>done</td>
+        </tr>
+        <tr>
+          <td>work 2</td>
+          <td>done</td>
+        </tr>
+        <tr>
+          <td>work 3</td>
+          <td>not done</td>
+        </tr>
+      </table>
+    </div>
+    </>
   )
 }
 
