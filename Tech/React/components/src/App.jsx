@@ -1,5 +1,5 @@
 import Addnew from './Add.jsx'
-import './Add.jsx'
+// import './Add.jsx'
 import './App.css'
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <>
     <header>
       Todo
+      <button onClick={Addnew()}>Add new work</button>
     </header>
     
     <div className='todo table'>
