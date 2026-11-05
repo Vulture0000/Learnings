@@ -8,9 +8,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <>
-   <header>See this i am trying to build something big is this react neccerray for it</header>
-   </>
+    <header>
+      this is a header in my first react project
+    </header>
   )
 }
 
