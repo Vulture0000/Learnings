@@ -1,13 +1,18 @@
+import { useState } from 'react';
 import Addnew from './Add.jsx'
 // import './Add.jsx'
-import './App.css'
+// import './App.css'
 
 function App() {
+  const [showform,setshowform] = useState(false);
   return (
     <>
     <header>
       Todo
-      <button onClick={Addnew()}>Add new work</button>
+      <br />
+      <button onClick={()=>{setshowform(!showform)}}>Add new work</button>
+      {showform && <Addnew/>}
+      {/* <Addnew/>/ */}
     </header>
     
     <div className='todo table'>
