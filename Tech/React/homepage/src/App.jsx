@@ -6,13 +6,14 @@ import Footer from './Footer'
 function App() {
 
   return (
-    <>
-    <Header />
-    <br />
-    <Body />
-    <br />
-    <Footer />
-    </>
+    <div className='app-container'>
+      <Header />
+      <br />
+      <Body />
+      <br />
+      <Footer />
+    </div>
+    
   )
 }
 
