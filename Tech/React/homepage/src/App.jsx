@@ -4,16 +4,12 @@ import Body from './Body'
 import Footer from './Footer'
 
 function App() {
-
   return (
-    <div className='app-container'>
+    <div className="app-container">
       <Header />
-      {/* <br /> */}
       <Body />
-      {/* <br /> */}
       <Footer />
     </div>
-    
   )
 }
 
