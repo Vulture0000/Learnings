@@ -1,0 +1,1 @@
+This is a folder created to do the Spring Boot docs, with and without UI. I need to start where I got stuck or where I left it. I'm coming back,To not code Spring Boot.
