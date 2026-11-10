@@ -104,3 +104,91 @@ packages/react-devtools-fusebox/dist
 packages/react-devtools-inline/dist
 packages/react-devtools-shell/dist
 packages/react-devtools-cdt-mcp/dist
+
+
+
+
+
+//spring and java
+
+# =========================================================================
+# Spring Boot & Build Tools (Maven / Gradle)
+# =========================================================================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+build/
+!.gradle/wrapper/gradle-wrapper.jar
+
+# Log files
+*.log
+logs/
+
+# Crash logs
+hs_err_pid*
+replay_pid*
+
+# =========================================================================
+# Compiled Java Class Files & Packages
+# =========================================================================
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# =========================================================================
+# IDE Settings & Editor Files
+# =========================================================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse / STS (Spring Tool Suite)
+.metadata
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# Visual Studio Code
+.vscode/
+
+# =========================================================================
+# Security & Environment Configurations
+# =========================================================================
+# Ignore specific local environment files containing credentials
+.env
+.env.local
+
+# Optional: If you use profiling, ignore local secret properties files
+# Do NOT ignore your primary application.properties/yml if they hold structural configurations.
+# Instead, extract secret tokens to environmental variables or use local overrides like below:
+application-local.properties
+application-local.yml
+application-dev.properties
+
+# =========================================================================
+# Operating System Files
+# =========================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+*.stackdump
