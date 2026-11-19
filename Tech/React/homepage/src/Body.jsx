@@ -1,7 +1,7 @@
-import useState from  'react';
+import {useState} from  'react';
 
 function Body() {
-  const [cars,setCars] = {(
+  const [cars,setCars] = useState(
     [
       {
         id : 1,
@@ -14,11 +14,10 @@ function Body() {
         para: "nfs bmw m3 gtr"
       }
     ]
-}
+  );
 function isAvailable(id){
   const cars = cars.filter(car.Available);
   setCars(cars);
-
 }
 
   return (
